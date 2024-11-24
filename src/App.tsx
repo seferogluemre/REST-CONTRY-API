@@ -43,6 +43,13 @@ function App() {
 
 
 
+  if (loading) {
+    return (
+      <div className=''>
+
+      </div>
+    )
+  }
 
 
 
