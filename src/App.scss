@@ -1,0 +1,19 @@
+body{
+    background-color: #495d64 !important;
+    font-family: "Montserrat",sans-serif !important;
+    font-size: 20px !important; 
+    font-weight: bold !important;
+}
+.card{
+    border: none;
+    background-color: #576b71 !important;
+    color: aliceblue !important;
+    width: 300px;
+    height: 450px !important;
+    margin: 20px 0px;
+    box-shadow: 0 4px 10px rgb(168, 168, 168);
+    .country-image{
+        width: 100%;
+        height: 250px !important;
+    }
+}
