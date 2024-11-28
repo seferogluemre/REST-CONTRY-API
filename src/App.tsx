@@ -24,7 +24,7 @@ function App() {
   const [countrys, setCountrys] = useState<Country[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
-  const [selectedContinent, setSelectedContinent] = useState<string>("");
+  const [selectedContinent, setSelectedContinent] = useState<string>("Europe");
   const [searchName, setSearchName] = useState<string>("");
 
 
